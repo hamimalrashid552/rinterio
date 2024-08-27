@@ -17,22 +17,22 @@
     <!-- tailwind config -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                primary: 'rgb(171, 239, 95)',
-                secondary: 'rgba(171, 239, 95, 0.5)',
-              },
-              fontFamily:{
-                Manrope: 'Manrope'
-              },
-              backgrounImage: {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'rgb(171, 239, 95)',
+                        secondary: 'rgba(171, 239, 95, 0.5)',
+                    },
+                    fontFamily: {
+                        Manrope: 'Manrope'
+                    },
+                    backgrounImage: {
 
-              }
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body class="font-Manrope">
@@ -40,46 +40,48 @@
         <nav class="w-11/12 mx-auto">
             <div class="navbar ">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost"><i class="fa-solid fa-arrow-right rounded-full bg-primary w-8 h-8 p-2 -rotate-45"></i><h1 class="text-2xl font-extrabold">Rinterio</h1></a>
+
+                    <a class="btn btn-ghost"><i
+                            class="fa-solid fa-arrow-right rounded-full bg-primary w-8 h-8 p-2 -rotate-45"></i>
+                        <h1 class="text-2xl font-extrabold">Rinterio</h1>
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-lg  font-normal text-slate-400 hover:text-black " href="">Home</a></li>
-                    <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Service</a></li>
-                    <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Portfolio</a></li>
-                    <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Blogs</a></li>
-                    <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Contact Us</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-lg  font-normal text-slate-400 hover:text-black " href="">Home</a></li>
+                        <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Service</a></li>
+                        <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Portfolio</a></li>
+                        <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Blogs</a></li>
+                        <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Contact Us</a></li>
+                    </ul>
                 </div>
-                <div class="navbar-end hidden lg:flex">
-                    <a ><i class="fa-solid fa-magnifying-glass border rounded-full w-8 h-8 p-2 mx-2"></i></a>
-                    <a ><i class="fa-solid fa-cart-shopping border rounded-full w-8 h-8 p-2 mx-2"></i></a>
-                  <a class="btn rounded-full bg-primary "><h1 class="text-xl font-extrabold ">Book Consult</h1><i class="fa-solid fa-arrow-right rounded-full bg-black text-white w-8 h-8 p-2 -rotate-45"></i> </a>
+                <div class="navbar-end ">
+
+                    <div class="sm:block hidden">
+                        <a><i class="fa-solid fa-magnifying-glass border rounded-full w-8 h-8 p-2 mx-2"></i></a>
+                        <a><i class="fa-solid fa-cart-shopping border rounded-full w-8 h-8 p-2 mx-2"></i></a>
+                        <a class="btn rounded-full bg-primary ">
+                            <h1 class="text-xl font-extrabold ">Book Consult</h1><i
+                                class="fa-solid fa-arrow-right rounded-full bg-black text-white w-8 h-8 p-2 -rotate-45"></i>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                            <li><a class="text-lg  font-normal text-slate-400 hover:text-black " href="">Home</a></li>
+                            <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Service</a></li>
+                            <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Portfolio</a>
+                            </li>
+                            <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Blogs</a></li>
+                            <li><a class="text-lg  font-normal text-slate-400 hover:text-black" href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
+            </div>
         </nav>
     </header>
     <main>
